@@ -1,2 +1,10 @@
 
-/* Your CSS Code here. */
+/* Your CSS Code here. *//* CSS code for the holder element */
+.holder {
+  display: grid;
+  grid-template-columns: repeat(2, 100px); /* Two columns, each 100px wide */
+  grid-template-rows: repeat(2, 100px); /* Two rows, each 100px high */
+  grid-gap: 10px; /* You can adjust the gap between items as needed */
+  width: 200px; /* Set the width of the grid container to 200px */
+  height: 200px; /* Set the height of the grid container to 200px */
+}
